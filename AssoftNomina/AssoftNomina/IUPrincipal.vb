@@ -162,8 +162,8 @@ Public Class IUPrincipal
     End Sub
 
     Private Sub IUPrincipal_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        Cargar_Empresa()
         Cargar_Departamentos()
+        Cargar_Empresa()
         Cargar_Empleados()
         Cargar_Familiares()
         Cargar_Cargos()

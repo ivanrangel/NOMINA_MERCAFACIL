@@ -30,6 +30,7 @@ Partial Class IUPrincipal
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
         Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
         Me.CachedRptPeriodoPrueba1 = New WindowsApplication1.CachedRptPeriodoPrueba()
+        Me.CachedRptPeriodoPrueba2 = New WindowsApplication1.CachedRptPeriodoPrueba()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -139,5 +140,6 @@ Partial Class IUPrincipal
     Friend WithEvents CalculoDeNóminaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ConsultorioMédicoToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents CachedRptPeriodoPrueba1 As WindowsApplication1.CachedRptPeriodoPrueba
+    Friend WithEvents CachedRptPeriodoPrueba2 As WindowsApplication1.CachedRptPeriodoPrueba
 
 End Class
