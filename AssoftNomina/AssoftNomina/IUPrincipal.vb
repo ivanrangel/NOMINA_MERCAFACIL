@@ -185,6 +185,7 @@ Public Class IUPrincipal
         If bConexionExitosa Then
             Dim f() As String = {"*"}
             Dim t() As String = {"titulos_personas"}
+            Dim m() As String = {"prueba"}
 
             Dim dt As DataTable = New MySQLSelectCommand(Conexion.ProDBCon, f, t, Nothing, Nothing, Nothing).Table
             If (dt.Rows.Count <> 0) Then
